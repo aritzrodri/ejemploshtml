@@ -1,0 +1,122 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Mi primera pagina WEB</title>
+  <meta name="description" content="Primera pagina">
+  <meta name="author" content="Aritz Rodriguez Lopez">
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body onload="init();">
+
+<div id="container"> 
+<div id="home">
+		
+	<ul>
+		<li><h3>Ejemplos basicos</h3></li>
+		<ul>
+			<li><a href="ejemplos/basicos/parrafos.html">Parrafos y enlaces</a></li>
+			<li><a href="ejemplos/basicos/block.html">Block inline</a></li>
+			<li><a href="ejemplos/basicos/listas.html">Listas</a></li>
+		</ul>
+		
+	</ul>
+	<ul>
+		<li><h3>Ejemplos reales</h3></li>
+		<ul>
+			<li><a href="ejemplos/reales/detalle-pelicula.html">Detalle cartelera</a></li>
+			<li><a href="ejemplos/reales/cartelera.html">CARTELERA</a></li>
+		</ul>
+	</ul>
+	
+	<ul>
+		<li><h3>Ejemplos Plugins</h3></li>
+		<ul>
+			<li><a href="ejemplos/plugins/datatables.html">Datatables</a></li>
+		</ul>
+	</ul>
+		
+<br><hr><br>
+		
+		
+<form action="#" method="post">
+
+	<label for="nombre">Escribe tu nombre:</label>
+	<input type="text" name="nombre" id="nombre" value="">
+		<br>
+	<label for="pass">Escribe tu contraseña:</label>
+	<input type="text" name="pass" id="pass" value="">
+		<br>
+	<input type="submit" value="Acceder">
+
+</form>
+
+<img src="http://www.alquilercocheslujomarbella.es/wp-content/uploads/2013/03/Supergaraje-Alquiler-de-coches-de-lujo-1.png" alt="coche" />
+  <!--[if lt IE 9]><img src="img/imagenes.png" alt="homi" /></img>-->
+<hr>
+	<h1>El afortunado en leer es:</h1>
+	<label for="btn_ganador" class="numero" id="afortunado">¿?</label>
+	<input type="button" value="Obtener nuevo afortunado" id="btn_ganador" name="btn_ganador" onclick="obtener_ganador()"/>
+	<br><br><br><br><br>
+<a href="pag2.html">Enlace a la 2º pagina </a>
+	
+
+
+  <br><hr><br>
+  
+  <!--- Tabla listado de alumnos-->
+  
+  <table id="tabla">
+  
+    <tr>
+		<td class="celda" colspan="4">Profe</td>
+    </tr>
+  
+	<tr>
+		<td class="celda">javier</td>
+		<td class="celda">cristina</td>
+		<td class="celda">jorge</td>
+		<td class="celda">mihai</td>
+	</tr>
+  
+	<tr>
+		<td class="celda">ieltxu</td>
+		<td class="celda">aritz</td>
+		<td class="celda">ander</td>
+		<td class="celda">javi</td>
+	</tr>
+    
+	<tr>
+		<td class="celda">jon</td>
+		<td class="celda">raul</td>
+		<td class="celda">jaione</td>
+		<td class="celda">david</td>
+	</tr>
+  
+    <tr>
+		<td class="celda">lara</td>
+		<td class="celda">X</td>
+		<td class="celda">unai</td>
+		<td class="celda">mikel</td>
+	</tr>
+  </table> 
+  
+   
+     <script src="js/main.js"></script>
+   
+   
+</div><!-- home-->
+</div><!-- container-->
+</body>
+</html>

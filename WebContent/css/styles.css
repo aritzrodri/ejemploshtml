@@ -1,0 +1,330 @@
+/*   
+	version:  1.0
+	author:   Aritz Rodriguez Lopez
+	date: 	  20150518
+		
+*/
+
+/* 
+   RESET    
+   Resetear todos los estilos para cualquier navegador
+*/
+@import url("reset.css");
+
+
+/* 
+   ETIQUETAS 
+   dar un estilo general o base a toda la Web	
+*/
+
+
+
+/* propiedades css para el fieldset, comprobarlo!!!!! */
+
+form input [type="text"]:focus:required:invalid
+{
+	border:6px solid blue;
+}
+
+
+/*
+fieldset{
+	border:2px solid blue;
+		}*/
+
+
+
+body{
+	/*background: url('../img/back2.jpg');*/
+	background: url('../img/fondo.jpg');
+	font-family: arial;
+}
+a{
+	text-decoration:none;
+}
+
+
+
+a:hover{
+	color: orange;
+}
+
+ol, ul {
+	list-style-type: disc;
+}
+
+li{ 
+	margin-bottom:8px;
+}
+
+ol h3, ul h3 {
+	font-weight:bold;
+	margin-bottom:15px;
+}
+
+
+ol ol, ul ul{
+	margin-left:20px;
+	list-style-type: circle;
+}
+
+fieldset{
+	border:1px solid gray;
+	padding:20px 30px;
+	margin-bottom:20px;
+}
+
+legend{
+		font-weight:bold;
+	
+}
+
+h1 {	
+  font-size: 50px;
+  font-weight: bolder; 
+  margin-bottom:20px;
+  color: red;
+  font-family: arial;
+  text-align: center;	
+}
+
+strong{
+	font-weight:bold;
+}
+
+p{
+	font-family: arial;
+	font-size:16px;
+	text-align:justify;
+	line-height:20px;
+}
+
+
+/*Selectores de atributos*/
+p[parrafo_rojo] {color: red;}
+
+
+
+
+/* 
+	ESTILOS REUTILIZABLES
+    Regla con selector por CLASS para usar en todas las páginas
+*/
+
+
+/*Clase para insertar los estilos de las imagenes del footer*/
+.iconos_footer
+{
+	width:25px;
+	height:auto;
+}
+
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+hay que comprobar los estilos de las estructuras
+en el general y el menu en vez de metarle clase pensar en meterle id
+y tambien hacer para que se aplique la altura automaticamente dependiendo del texto que tiene
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+*/
+
+
+
+/* estilos generales para las etiquetas de la estructura del documento*/
+
+.estilo_general{
+	width:900px;
+	background-color:#FFF;
+	min-height:700px;
+	margin:0 auto;	
+	padding:0 20px;
+	border-right:1px solid grey;
+	border-left:1px solid grey;
+	clear:both;
+}
+	
+	
+/* EStilos para el footer y el head*/	
+.estilo_footer_head{
+	width:900px;
+	background-color:#FFF;
+	min-height:75px;
+	margin:0 auto;	
+	padding:0 20px;
+	border-right:1px solid grey;
+	border-left:1px solid grey;
+	clear:both;
+}
+
+/* estilo para el menu*/
+.estilo_menu{
+	width:900px;
+	background-color:#FFF;
+	min-height:350px;
+	margin:0 auto;	
+	padding:0 20px;
+	border-right:1px solid grey;
+	border-left:1px solid grey;
+	clear:both;
+}
+	
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+article{
+	border: 2px solid green;
+	padding: 20px;
+	margin-bottom: 25px;
+}
+
+legend{
+	/*border:1px solid gray;*/
+	text-align: center;
+	font-family: arial;
+	font-size: 35px;  
+	color: #0099FF;
+}
+
+
+
+
+table.tabla_azul, .tabla_azul tr, .tabla_azul td{
+	border:1px solid black;
+	text-align: center;
+	font-family: arial;
+	font-size: 35px;  
+	color: #0099FF;    
+}
+
+.tabla_azul th, .tabla_azul td {
+  padding: 10px;  
+  height: 40px;
+}
+
+.tabla_azul th{
+  color: grey;	
+}
+
+
+.btn_volver{
+	background-color:#DDDDDD;
+}
+
+.numero{
+  color: #0099FF;
+  font-family: arial;
+  font-size: 150px;		
+}
+
+.hightlight{
+	background-color: yellow;
+}
+
+.verde{
+	color:green;	
+}
+
+.cartel{
+	float:left;
+	margin-right:30px;
+	width:250px;
+	height:auto;
+}
+
+
+/*
+	PAGINAS
+	Tendremos una seccion por cada pagina de nuestra Web
+
+*/
+
+/* NAV */
+
+#logo img{
+	width: 35px;
+	height: 35px;
+}
+
+
+/* HOME */
+#home{}
+
+/* CARTELERA */
+#cartelera li h3{
+  color: #0076EC;
+  font-family: "dinengschriftstd", "Another Font", generic;
+  font-size: 25px;
+  font-weight: bold;  
+}
+
+#cartelera li h3:hover{
+	color: orange;
+}
+
+
+/* CARTELERA_DETALLE */
+#cartelera_detalle h1{
+	color:blue;
+	text-align:left;
+}
+
+
+/* Regla con selector por ID */
+#dado{
+	width:200px;
+	height: 200px;
+}
+
+#encabezado{
+	border:5px dotted green;
+	
+}
+
+
+/*
+#container{
+	width:900px;
+	background-color:#FFF;
+	min-height:700px;
+	margin:0 auto;	
+	padding:0 20px;
+	border-right:1px solid grey;
+	border-left:1px solid grey;
+	clear:both;
+}
+*/
+
+
+#ficha{
+	/*float:left;*/
+	width:580px;
+	min-height: 360px;
+	margin-bottom: 20px;	
+	
+}
+
+#ficha p{
+	
+	font-size:35px;
+	line-height:45px;
+}
+
+#ficha .destacado{
+	color:green;
+	font-weight:600;
+}
+
+#sinopsis{
+  /*float: left;*/
+  height: 200px;
+  overflow: scroll;
+}  
+
+
+
+
+
