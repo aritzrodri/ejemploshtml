@@ -54,6 +54,15 @@
 			<li><a href="ejemplos/css/selectores/pelementos.jsp">Pseudo-elementos</a></li>	
 			<li><a href="ejemplos/css/selectores/css3.jsp">css3</a></li>		
 		</ul>
+		
+			<ul>	<h4>Posicionamiento</h4>
+			<li><a href="ejemplos/css/posicionamiento/absoluto.jsp">Absoluto</a></li>
+			<li><a href="ejemplos/css/posicionamiento/fijo.jsp">Fijo</a></li>	
+			<li><a href="ejemplos/css/posicionamiento/inherit.jsp">Inherit</a></li>
+			<li><a href="ejemplos/css/posicionamiento/normal.jsp">Norrmal</a></li>	
+			<li><a href="ejemplos/css/posicionamiento/relativo.jsp">Relativo</a></li>	
+				<li><a href="ejemplos/css/posicionamiento/float.jsp">Elementos flotantes</a></li>		
+		</ul>
 	</li>  
 
   <li>
