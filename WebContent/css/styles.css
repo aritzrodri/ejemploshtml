@@ -17,6 +17,201 @@
    dar un estilo general o base a toda la Web	
 */
 
+footer{
+    padding-top: 15px;
+}
+
+
+/*----------------------------------------------------------------------*/
+/*---------------------------SPRITE FOOTER  ----------------------------*/
+/*----------------------------------------------------------------------*/
+
+ul.spicesocialwidget {float:right;}
+ul.spicesocialwidget li {float:left;list-style: none outside none;border:none;}
+ul.spicesocialwidget li a{background-color:transparent;background-image:url('http://4.bp.blogspot.com/-Pe-J5S7YCa0/UdXsJoN7GLI/AAAAAAAAL68/ongZAtcNF1E/s1600/spice-social-gadget-sprite.png');background-repeat:no-repeat;background-size:auto 96px;border:0 none;color:white;direction:ltr;display:block; height:32px;overflow:hidden;text-align:left;text-decoration:none;text-indent:-999em;transition:all 0.2s ease 0s;width:32px}
+.ie7 ul.spicesocialwidget li a, .ie8 ul.spicesocialwidget li a{background-image:url('http://4.bp.blogspot.com/-Pe-J5S7YCa0/UdXsJoN7GLI/AAAAAAAAL68/ongZAtcNF1E/s1600/spice-social-gadget-sprite.png' )}
+ul.spicesocialwidget li.facebook a{ background-position:0 0}
+ul.spicesocialwidget li.flickr a{ background-position:-32px 0}
+ul.spicesocialwidget li.dribbble a{ background-position:-64px 0}
+ul.spicesocialwidget li.googleplus a{ background-position:-96px 0}
+ul.spicesocialwidget li.linkedin a{ background-position:-128px 0}
+ul.spicesocialwidget li.pinterest a{ background-position:-160px 0}
+ul.spicesocialwidget li.rss a{ background-position:-192px 0}
+ul.spicesocialwidget li.skype a{ background-position:-224px 0}
+ul.spicesocialwidget li.twitter a{ background-position:-256px 0}
+ul.spicesocialwidget li.vimeo a{ background-position:-288px 0}
+ul.spicesocialwidget li.youtube a{ background-position:-320px 0}
+ul.spicesocialwidget li.facebook a:hover, #sidebar ul.spicesocialwidget li.facebook a:hover{ background-position:0 -32px}
+ul.spicesocialwidget li.flickr a:hover, #sidebar ul.spicesocialwidget li.flickr a:hover{ background-position:-32px -32px}
+ul.spicesocialwidget li.dribbble a:hover, #sidebar ul.spicesocialwidget li.dribbble a:hover{ background-position:-64px -32px}
+ul.spicesocialwidget li.googleplus a:hover, #sidebar ul.spicesocialwidget li.googleplus a:hover{ background-position:-96px -32px}
+ul.spicesocialwidget li.linkedin a:hover, #sidebar ul.spicesocialwidget li.linkedin a:hover{ background-position:-128px -32px}
+ul.spicesocialwidget li.pinterest a:hover, #sidebar ul.spicesocialwidget li.pinterest a:hover{ background-position:-160px -32px}
+ul.spicesocialwidget li.rss a:hover, #sidebar ul.spicesocialwidget li.rss a:hover{ background-position:-192px -32px}
+ul.spicesocialwidget li.skype a:hover, #sidebar ul.spicesocialwidget li.skype a:hover{ background-position:-224px -32px}
+ul.spicesocialwidget li.twitter a:hover, #sidebar ul.spicesocialwidget li.twitter a:hover{ background-position:-256px -32px}
+ul.spicesocialwidget li.vimeo a:hover, #sidebar ul.spicesocialwidget li.vimeo a:hover{ background-position:-288px -32px}
+ul.spicesocialwidget li.youtube a:hover, #sidebar ul.spicesocialwidget li.youtube a:hover{ background-position:-320px -32px}
+
+
+
+
+
+/*-------------------------------------------------------------------*/
+/*-------------------------SPRITE FANTASMA---------------------------*/
+/*-------------------------------------------------------------------*/
+
+
+
+#sprite li{
+	border:1px solid;
+	background: url(../img/iconos/sprite.png) no-repeat 0;
+	padding: 15px 100px;
+	liust-style:none;
+}
+
+#sprite .pacman{ background-position: 0 -74px;}
+#sprite .robot{ background-position: 0 -25px;}
+
+#sprite .fantasma{ background-position: 0 -123px;}
+
+/* --------------------------FIN SPRITE FANTASMA------------------------ */
+
+
+/*----------------------------------------------------------------------*/
+/*---------------------CSS para hacer el menu desplegable ------------- */
+/*----------------------------------------------------------------------*/
+
+#menu_desplegable
+{
+	margin:auto;
+	width:700px;
+	font-family:"Times New Roman", Times, serif;
+}
+
+
+/* Esta clase es para las ul y todo lo demas que esta en su interior */
+.elemento_menu li a
+{
+	background-color:#0B3861;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 15px;
+	display:block;
+}
+
+.elemento_menu li a:hover
+{bachground-color:#434343;}
+
+.elemento_menu > li
+{
+	float:left;
+}
+
+.elemento_menu li ul
+{
+	display:none;
+	position:absolute;
+	min-width:140px;	
+}
+
+.elemento_menu li:hover > ul
+{
+		display:block;
+}
+
+.elemento_menu li ul li
+{
+	position:relative;
+}
+
+.elemento_menu li ul li ul
+{
+	right:-140px;
+	top:0px;	
+}
+
+/* estilo para el menu*/
+.estilo_menu{
+	width:883px;
+	background-color:#424242;
+	min-height:100px;
+	margin:0 auto;	
+	padding-left: 30px;
+	
+}
+	
+
+/*---------------------FIN MENU---------------------*/
+
+
+
+/* ----------------------------------------------  */
+/*-------------------BOTON--------------------------*/
+/* ----------------------------------------------  */
+
+.btn {
+  background: #d6a427;
+  background-image: -webkit-linear-gradient(top, #d6a427, #3be821);
+  background-image: -moz-linear-gradient(top, #d6a427, #3be821);
+  background-image: -ms-linear-gradient(top, #d6a427, #3be821);
+  background-image: -o-linear-gradient(top, #d6a427, #3be821);
+  background-image: linear-gradient(to bottom, #d6a427, #3be821);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+/*---------------------FIN BOTON---------------------*/
+
+
+
+/* ----------------------------------------------  */
+/*----------DIVISIONES DADO ASIDE-----------------*/
+/* ----------------------------------------------  */
+
+
+
+#division_dado
+{
+	width:60%;
+	margin-right:10%;
+	/*background-color:#A9F5F2;*/
+	float: left;
+	height:100%;
+    padding-left: 17px;
+}
+
+#aside
+{
+	width:20%;
+	background-color:#585858;
+	height:100%;
+	float: left;
+    padding-left: 8px;
+	
+}
+
+
+/*---------------------FIN DADO ASIDE---------------------*/
+
 
 
 /* propiedades css para el fieldset, comprobarlo!!!!! */
@@ -26,31 +221,36 @@ form input [type="text"]:focus:required:invalid
 	border:6px solid blue;
 }
 
-
 /*
-fieldset{
-	border:2px solid blue;
-		}*/
-
+fieldset{ border:2px solid blue; }*/
 
 
 body{
 	/*background: url('../img/back2.jpg');*/
 	background: url('../img/fondo.jpg');
+	color:white;
 	font-family: arial;
 }
+
 a{
 	text-decoration:none;
+	color: #A9D0F5;
 }
-
 
 
 a:hover{
 	color: orange;
 }
 
+
+/* te muestra los enlaces cuando pasas el puntero por encima, esto se suele usar para las
+impresiones quitando el 'valor hover'
+a:hover:after { content: " (" attr(href) ") "; }
+*/
+
+
 ol, ul {
-	list-style-type: disc;
+	list-style-type: none;
 }
 
 li{ 
@@ -65,7 +265,7 @@ ol h3, ul h3 {
 
 ol ol, ul ul{
 	margin-left:20px;
-	list-style-type: circle;
+	list-style-type: none;
 }
 
 fieldset{
@@ -98,6 +298,18 @@ p{
 	text-align:justify;
 	line-height:20px;
 }
+
+
+#titulo_seccion {	
+  font-size: 30px;
+  font-weight: bolder; 
+  margin-bottom:20px;
+  color: #F7D358;
+  font-family: arial;
+  text-align: left;	
+  width:370px;
+}
+
 
 
 /*Selectores de atributos*/
@@ -136,43 +348,119 @@ y tambien hacer para que se aplique la altura automaticamente dependiendo del te
 
 .estilo_general{
 	width:900px;
-	background-color:#FFF;
+	background-color:#424242;
 	min-height:700px;
 	margin:0 auto;	
-	padding:0 20px;
-	border-right:1px solid grey;
-	border-left:1px solid grey;
+	padding:179px 20px;
+	/*border-right:1px solid grey;
+	border-left:1px solid grey;*/
 	clear:both;
+	overflow:auto;
+	
 }
 	
 	
 /* EStilos para el footer y el head*/	
 .estilo_footer_head{
 	width:900px;
-	background-color:#FFF;
+	background-color:#424242;
 	min-height:75px;
-	margin:0 auto;	
+	margin:0 auto;
+	height:auto;	
 	padding:0 20px;
-	border-right:1px solid grey;
-	border-left:1px solid grey;
+	/*border-right:1px solid grey;
+	border-left:1px solid grey;*/
 	clear:both;
+	overflow:auto;
 }
 
-/* estilo para el menu*/
-.estilo_menu{
+/* EStilos para el head*/	
+.estilo_head{
 	width:900px;
-	background-color:#FFF;
-	min-height:350px;
-	margin:0 auto;	
-	padding:0 20px;
-	border-right:1px solid grey;
-	border-left:1px solid grey;
-	clear:both;
-}
+	background-color:#424242;
+	min-height:75px;
+	margin:0 auto;
 	
+	padding:0 20px;
+	/*border-right:1px solid grey;
+	border-left:1px solid grey;*/
+	
+	
+    left: 104px;
+	position: fixed;
+}
+
+
+
+	
+	
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+
+
+/* ------------------------------------------------------------------------------------ */
+/* ----------------------------------ESTILOS DE LA CARTELERA---------------------------- */
+/* ------------------------------------------------------------------------------------ */
+
+
+.imagen_cartelera
+{    
+	width: 175px;
+}
+
+/* CARTELERA */
+#cartelera li h3{
+  background-color:rgba(0,0,0,0.6);
+  font-family: "dinengschriftstd", "Another Font", generic;
+  font-size: 25px;
+  font-weight: bold;  
+  padding:2%;
+  min-height:50px;
+  
+}
+
+#cartelera li h3:hover{
+	color: orange;
+}
+
+
+/* CARTELERA_DETALLE */
+#cartelera_detalle h1{
+	color:blue;
+	text-align:left;
+}
+
+
+/* estilos para posicionar y poner margenes a la lista de la cartelera */
+#lista li
+{
+  	float: left;
+  	width: 20%;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 15px;
+}
+
+
+/*  comprobar lo de desaparecer titulo
+
+#lista li h3{
+	display:none;
+}
+
+#lista li a:hover h3{
+	display:block;
+}*/
+
+/* ----------------------------------FIN ESTILOS CARTELERA---------------------------- */
 
 
 article{
@@ -186,18 +474,18 @@ legend{
 	text-align: center;
 	font-family: arial;
 	font-size: 35px;  
-	color: #0099FF;
+	//color: #0099FF;
 }
 
 
 
 
 table.tabla_azul, .tabla_azul tr, .tabla_azul td{
-	border:1px solid black;
+	border:1px solid yellow;
 	text-align: center;
 	font-family: arial;
-	font-size: 35px;  
-	color: #0099FF;    
+	font-size: 20px;  
+	color: #A5EFF5;    
 }
 
 .tabla_azul th, .tabla_azul td {
@@ -217,7 +505,7 @@ table.tabla_azul, .tabla_azul tr, .tabla_azul td{
 .numero{
   color: #0099FF;
   font-family: arial;
-  font-size: 150px;		
+  font-size: 50px;		
 }
 
 .hightlight{
@@ -244,33 +532,43 @@ table.tabla_azul, .tabla_azul tr, .tabla_azul td{
 
 /* NAV */
 
+/*Estilos de la cabecera, el logo y el titulo general -------*/
+
 #logo img{
-	width: 35px;
-	height: 35px;
+    padding-top: 3px;
+	width: 50px;
+	height: 50px;
 }
+
+#logo
+{
+	 width: 40px;
+	 float: left;
+}
+
+#titulo_cabecera
+{
+	float: left;
+    padding-left: 23px;
+    color: #00FF80;
+}
+
+/*--------------------------------------------------------*/
+
+
+
+#titulo_seccion
+{
+	
+}
+
 
 
 /* HOME */
-#home{}
-
-/* CARTELERA */
-#cartelera li h3{
-  color: #0076EC;
-  font-family: "dinengschriftstd", "Another Font", generic;
-  font-size: 25px;
-  font-weight: bold;  
-}
-
-#cartelera li h3:hover{
-	color: orange;
-}
-
-
-/* CARTELERA_DETALLE */
-#cartelera_detalle h1{
-	color:blue;
-	text-align:left;
-}
+#home
+	{
+    	padding-top: 185px;
+	}
 
 
 /* Regla con selector por ID */
@@ -281,14 +579,13 @@ table.tabla_azul, .tabla_azul tr, .tabla_azul td{
 
 #encabezado{
 	border:5px dotted green;
-	
 }
 
 
 /*
 #container{
 	width:900px;
-	background-color:#FFF;
+	background-color:#A4A4A4;
 	min-height:700px;
 	margin:0 auto;	
 	padding:0 20px;
@@ -325,6 +622,16 @@ table.tabla_azul, .tabla_azul tr, .tabla_azul td{
 }  
 
 
+/*  -------------------ETIQUETAS H3----------------------------------*/
 
+.titulos_peli:hover
+{color:orange;	}
 
+.titulos_peli
+{color: #00FFFF;}
 
+/*
+h3{
+	color: #00FFFF;
+}
+*/

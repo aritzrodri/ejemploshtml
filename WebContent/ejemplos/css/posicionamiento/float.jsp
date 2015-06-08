@@ -62,9 +62,7 @@
 		
 		<footer>
 		<p>flotantes pag. 207, clear pag 212 </p>
-		<a href="http://librosweb.es/libro/css_avanzado/capitulo_1/limpiar_floats.html">CSS avanzado Limpiar Floats</a>
-		<a href="http://jps.com.ve/flotando-elementos-en-css-y-la-magia-de-clearfix/">Clearfix magia</a>
-		<a href="http://learnlayout.com/clearfix.html">Clearfix</a>
+		
 				
 		</footer>
 	

@@ -7,7 +7,6 @@
 	 
 <section class="estilo_general">
 
-
 <audio width="300" height="32" src="micancion.mp3" controls="controls" autoplay="autoplay" preload="">
  
 </audio>

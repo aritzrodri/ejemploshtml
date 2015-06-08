@@ -7,10 +7,6 @@
 
 <section class="estilo_general">
 
-
-
-
-
 <style>
 	
 	/*Estilo del first-line*/

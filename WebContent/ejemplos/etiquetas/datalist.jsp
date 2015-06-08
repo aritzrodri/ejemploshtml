@@ -8,9 +8,6 @@
 
 <section class="estilo_general">
 
-
-
-
 </section>
     <br>
     <script type="text/javascript" src="js/main.js"></script>

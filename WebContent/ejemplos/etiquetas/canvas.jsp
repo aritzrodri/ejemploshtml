@@ -5,8 +5,7 @@
 </nav>
 	 
 <section class="estilo_general">
-
-
+	
 <canvas id="micanvas" width="700" height="700">
 Este texto se muestra para los navegadores no compatibles con canvas.
 <br>

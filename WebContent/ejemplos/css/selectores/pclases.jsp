@@ -7,7 +7,6 @@
 
 <section class="estilo_general">
 
-
 <style>
 	
 p:first-child em {
@@ -17,7 +16,6 @@ p:first-child em {
 </style>
 
 	<p>Lorem <span><em>ipsum dolor</em></span> sit amet, consectetuer adipiscing elit. Praesent odio sem, tempor quis, <em>auctor eu</em>, tempus at, enim.</p>
- 
 	<p>Lorem <span><em>ipsum dolor</em></span> sit amet, consectetuer adipiscing elit. Praesent odio sem, tempor quis, <em>auctor eu</em>, tempus at, enim.</p>
  
 	<div>

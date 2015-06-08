@@ -7,7 +7,6 @@
 
 <section class="estilo_general">
 
-
 <h2>Posicionamientos CSS</h2>
 	<article>
 		<header>

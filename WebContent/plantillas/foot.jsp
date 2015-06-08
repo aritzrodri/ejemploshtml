@@ -4,30 +4,42 @@
 	<!-- <img alt="copyright" title="copyright" class="iconos_footer" src="img/copyright.jpg" /> -->
 	<span class="copy">&copy; Ipartek Servicios Informaticos</span>
 	
-	<!-- enlaces a paginas estaticas  -->
-	
-	  <!-- Sidebar con cosas no importantes de la pagina  -->
-   <aside>
-   		<ul>
-   			<li><a href="" target="blank"> Campus</a></li>
-   			<li><a href="" target="blank"> Uso</a></li>
-   		</ul>
-   </aside>
-	
-	
-	<ul id="list_paginas">
-		<li><a href="#">Quienes Somos</a></li>
-		<li><a href="#">Contacto</a></li>
-	</ul>
-	
-	
-	<!-- enlaces a redes sociales -->
-	<ul id="lista_rrss">
-		<li><a href="#" target="blank"><img alt="facebook" title="facebook" class="iconos_footer" src="img/iconos/facebook.jpg" /></a></li>
-		<li><a href="#" target="blank"><img alt="twitter" title="twitter" class="iconos_footer" src="img/iconos/twitter.jpg" /></a></li>
-		<li><a href="#" target="blank"><img alt="youtube" title="youtube" class="iconos_footer" src="img/iconos/youtube.png" /></a></li>
-		<li><a href="#" target="blank"><img alt="instagram" title="instagram" class="iconos_footer" src="img/iconos/instagram.jpg" /></a></li>
-	</ul>
+ <ul class="spicesocialwidget">
+<li class="facebook">
+<a rel="nofollow" href="http://www.facebook.com/" target="_blank" title="facebook">
+</a></li>
+<li class="googleplus">
+<a rel="nofollow" href="https://plus.google.com/" target="_blank" title="googleplus">
+</a></li>
+<li class="pinterest">
+<a rel="nofollow" href="http://pinterest.com/" target="_blank" title="pinterest">
+</a></li>
+<li class="twitter">
+<a rel="nofollow" href="http://twitter.com/" target="_blank" title="twitter">
+</a></li>
+<li class="rss">
+<a rel="nofollow" href="http://feedburner.com/" target="_blank" title="rss">
+</a></li>
+<li class="skype">
+<a rel="nofollow" href="http://www.skype.com/" target="_blank" title="Skype">
+</a></li>
+<li class="vimeo">
+<a rel="nofollow" href="http://www.vimeo.com/" target="_blank" title="vimeo">
+</a></li>
+<li class="dribbble">
+<a rel="nofollow" href="http://www.dribbble.com/" target="_blank" title="dribble">
+</a></li>
+<li class="flickr">
+<a rel="nofollow" href="http://www.flickr.com/" target="_blank" title="flickr">
+</a></li>
+<li class="linkedin">
+<a rel="nofollow" href="http://www.linkedin.com/" target="_blank" title="linkedin">
+</a></li>
+<li class="youtube">
+<a rel="nofollow" href="http://www.youtube.com/" target="_blank" title="youtube">
+</a></li>
+</ul>
+
 
 
 </footer>

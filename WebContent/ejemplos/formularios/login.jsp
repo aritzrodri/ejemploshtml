@@ -1,8 +1,15 @@
-<jsp:include page="/plantillas/head.jsp"></jsp:include>
-<jsp:include page="/plantillas/nav.jsp"></jsp:include>
+  	<jsp:include page="/plantillas/head.jsp"></jsp:include>
+<nav class="estilo_menu">
+	<jsp:include page="/plantillas/nav.jsp"></jsp:include>
+</nav>
+
+<div id="home">	
+
+<section class="estilo_general">
+
+
 
 <h1>Ejemplo de Login</h1>
-
 
 <form action="ejemplos/formularios/controlador.jsp" method="post">
 
@@ -19,5 +26,15 @@
 </form>
 
 
+</section>
+<br>
+     
+	<script type="text/javascript" src="js/index.js"></script>
+	<script>init();</script>
+	 
+</div> <!-- home -->
 
-<jsp:include page="/plantillas/foot.jsp"></jsp:include>
+<footer class="estilo_footer_head">
+	<jsp:include page="/plantillas/foot.jsp"></jsp:include>
+     <script src="js\main.js"></script>
+</footer>

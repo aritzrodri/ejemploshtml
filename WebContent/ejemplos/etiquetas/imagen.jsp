@@ -9,8 +9,6 @@
 	 
 <section class="estilo_general">
 
-
-
 <!-- Varias imagenes metidas en un figure -->
 	<figure>
 	  <img src="img/husky.jpg" alt="husky">

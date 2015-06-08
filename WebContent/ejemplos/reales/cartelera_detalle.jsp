@@ -6,14 +6,10 @@
 
 <section class="estilo_general">
 	  
-		<div class="btn_volver">
-			<a href="../../index.html">Volver</a>	
-		</div>	
-			
 		<h1>Cronicas de Narnia</h1>
 		
 		<div id="caratula">
-			<img alt="Cartel pelicula 'Cronicas de Narnia'" src="../../img/cronicas_narnia.jpg" class="cartel" />
+			<img alt="Cartel pelicula'" src="img/hercules.jpg" class="cartel" />
 			
 			<!-- ficha -->
 			<div id="ficha">

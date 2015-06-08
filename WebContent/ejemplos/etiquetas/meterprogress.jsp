@@ -14,8 +14,6 @@
 			<meter value="0.6">60%</meter>
 		</fieldset>
 		
-		
-		
 		<fieldset>
 		<legend>Progress</legend>
 			<progress value="60" max="100">
@@ -23,7 +21,6 @@
         	</progress>	
 		</fieldset>
 	
-
 </section>
     <br>
     <script type="text/javascript" src="js/main.js"></script>

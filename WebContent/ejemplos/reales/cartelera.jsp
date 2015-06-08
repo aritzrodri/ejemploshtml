@@ -6,70 +6,66 @@
 
 <section class="estilo_general">
 
-	<div class="btn_volver">
-		<a href="../../index.html">Volver</a>	
-	</div>	
-	
 	<h1>Cartelera</h1>
 	
-	<ul>
+	<ul id="lista">
 		<li>				
-			<a href="cartelera_detalle.html" title="Ver detalle pelicula">
-				<h3>¿donde esta NOE?</h3>
-				<img alt="Cartel de la pelicula X" src="http://www.cinesa.es/Manager/Peliculas/upsdndeestno/cartelera.jpg" />
+			<a href="ejemplos/reales/cartelera_detalle.jsp" title="Ver detalle pelicula">
+				<h3 class="titulos_peli">¿donde esta NOE?</h3>
+				<img class="imagen_cartelera"  alt="Cartel de la pelicula X" src="http://www.cinesa.es/Manager/Peliculas/upsdndeestno/cartelera.jpg" />
 			</a>	
 		</li>		
 		
 		<li>
-			<a href="cartelera_detalle.html" title="Ver detalle pelicula">
-				<h3>A cambio de Nada</h3>
-				<img alt="Cartel de la pelicula X" src="http://www.cinesa.es/Manager/Peliculas/acambiodenada/cartelera.jpg" />
+			<a href="ejemplos/reales/cartelera_detalle.jsp" title="Ver detalle pelicula">
+				<h3 class="titulos_peli">A cambio de Nada</h3>
+				<img class="imagen_cartelera"  alt="Cartel de la pelicula X" src="http://www.cinesa.es/Manager/Peliculas/acambiodenada/cartelera.jpg" />
 			</a>
 		</li>
 		
 		<li>				
-			<a href="cartelera_detalle.html" title="Ver detalle pelicula">
-				<h3>¿donde esta NOE?</h3>
-				<img alt="Cartel de la pelicula X" src="http://www.cinesa.es/Manager/Peliculas/upsdndeestno/cartelera.jpg" />
+			<a href="ejemplos/reales/cartelera_detalle.jsp" title="Ver detalle pelicula">
+				<h3 class="titulos_peli">¿donde esta NOE?</h3>
+				<img class="imagen_cartelera"  alt="Cartel de la pelicula X" src="http://www.cinesa.es/Manager/Peliculas/upsdndeestno/cartelera.jpg" />
 			</a>	
 		</li>		
 		
 		<li>
-			<a href="cartelera_detalle.html" title="Ver detalle pelicula">
-				<h3>A cambio de Nada</h3>
-				<img alt="Cartel de la pelicula X" src="http://www.cinesa.es/Manager/Peliculas/acambiodenada/cartelera.jpg" />
+			<a href="ejemplos/reales/cartelera_detalle.jsp" title="Ver detalle pelicula">
+				<h3 class="titulos_peli">A cambio de Nada</h3>
+				<img class="imagen_cartelera"  alt="Cartel de la pelicula X" src="http://www.cinesa.es/Manager/Peliculas/acambiodenada/cartelera.jpg" />
 			</a>
 		</li>
 		<li>				
-			<a href="cartelera_detalle.html" title="Ver detalle pelicula">
-				<h3>¿donde esta NOE?</h3>
-				<img alt="Cartel de la pelicula X" src="http://www.cinesa.es/Manager/Peliculas/upsdndeestno/cartelera.jpg" />
+			<a href="ejemplos/reales/cartelera_detalle.jsp" title="Ver detalle pelicula">
+				<h3 class="titulos_peli">¿donde esta NOE?</h3>
+				<img class="imagen_cartelera"  alt="Cartel de la pelicula X" src="http://www.cinesa.es/Manager/Peliculas/upsdndeestno/cartelera.jpg" />
 			</a>	
 		</li>		
 		
 		<li>
-			<a href="cartelera_detalle.html" title="Ver detalle pelicula">
-				<h3>A cambio de Nada</h3>
-				<img alt="Cartel de la pelicula X" src="http://www.cinesa.es/Manager/Peliculas/acambiodenada/cartelera.jpg" />
+			<a href="ejemplos/reales/cartelera_detalle.jsp" title="Ver detalle pelicula">
+				<h3 class="titulos_peli">A cambio de Nada</h3>
+				<img class="imagen_cartelera"  alt="Cartel de la pelicula X" src="http://www.cinesa.es/Manager/Peliculas/acambiodenada/cartelera.jpg" />
 			</a>
 		</li>
 		<li>				
-			<a href="cartelera_detalle.html" title="Ver detalle pelicula">
-				<h3>¿donde esta NOE?</h3>
-				<img alt="Cartel de la pelicula X" src="http://www.cinesa.es/Manager/Peliculas/upsdndeestno/cartelera.jpg" />
+			<a href="ejemplos/reales/cartelera_detalle.jsp" title="Ver detalle pelicula">
+				<h3 class="titulos_peli">¿donde esta NOE?</h3>
+				<img class="imagen_cartelera"  alt="Cartel de la pelicula X" src="http://www.cinesa.es/Manager/Peliculas/upsdndeestno/cartelera.jpg" />
 			</a>	
 		</li>		
 		
 		<li>
-			<a href="cartelera_detalle.html" title="Ver detalle pelicula">
-				<h3>A cambio de Nada</h3>
-				<img alt="Cartel de la pelicula X" src="http://www.cinesa.es/Manager/Peliculas/acambiodenada/cartelera.jpg" />
+			<a href="ejemplos/reales/cartelera_detalle.jsp" title="Ver detalle pelicula">
+				<h3 class="titulos_peli">A cambio de Nada</h3>
+				<img class="imagen_cartelera"  alt="Cartel de la pelicula X" src="http://www.cinesa.es/Manager/Peliculas/acambiodenada/cartelera.jpg" />
 			</a>
 		</li>
 		<li>				
-			<a href="cartelera_detalle.html" title="Ver detalle pelicula">
-				<h3>¿donde esta NOE?</h3>
-				<img alt="Cartel de la pelicula X" src="http://www.cinesa.es/Manager/Peliculas/upsdndeestno/cartelera.jpg" />
+			<a href="ejemplos/reales/cartelera_detalle.jsp" title="Ver detalle pelicula">
+				<h3 class="titulos_peli">¿donde esta NOE?</h3>
+				<img class="imagen_cartelera" alt="Cartel de la pelicula X" src="http://www.cinesa.es/Manager/Peliculas/upsdndeestno/cartelera.jpg" />
 			</a>	
 		</li>		
 		

@@ -6,7 +6,7 @@
 
 <section class="estilo_general">
 <h1>Datos Personales</h1>
-
+<a href="index.jsp">VOLVER</a>	
 
 <form action="ejemplos/formularios/controlador.jsp" id="FormularioDatos" method="post">
 

@@ -7,7 +7,6 @@
 
 <section class="estilo_general">
 
-
 <!-- Para que funcionen los selectores adyacentes, en este caso del parrafo, tiene que estar al
 mismo nivel, si estan dentro de el dov como este caso, la regla no te lo coge  -->
 <style>

@@ -7,7 +7,6 @@
 
 <section class="estilo_general">
 
-
 <style>
 
 	/*Aplica un tipo de viñeta diferente para las listas que a su vez estén dentro de otra lista 

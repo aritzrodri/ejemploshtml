@@ -7,7 +7,6 @@
 
 <section class="estilo_general">
 
-
 <style> 
 		 
 		/* Se muestran de color azul todos los enlaces que tengan 

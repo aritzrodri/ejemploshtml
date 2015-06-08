@@ -6,7 +6,7 @@
 <div id="home">	
 
 	<section class="estilo_general">
-
+<a href="index.jsp">VOLVER</a>	
 		<style>
 			p > span { color: blue; }
 		

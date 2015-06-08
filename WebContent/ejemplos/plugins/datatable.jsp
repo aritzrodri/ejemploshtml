@@ -1,31 +1,9 @@
-<!doctype html>
 
-<html lang="es">
-
-<head>
-  <meta charset="utf-8">
-
-  <title>DataTables</title>
-  <meta name="description" content="DataTables">
-  <meta name="author" content="Ander Uraga">
-
-  
-  <link rel="stylesheet" type="text/css" href="../../css/styles.css?v=1.0">
-  <link rel="stylesheet" type="text/css" href="../../js/DataTables-1.10.7/css/jquery.dataTables.min.css">
-  
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  
-  
-  
-  <body>
-
-  <div id="container">
-  
-	<a href="../../index.html">VOLVER</a>	
-	<h1>dataTables</h1>
-  
+<jsp:include page="/plantillas/head.jsp"></jsp:include>
+<nav class="estilo_menu">
+<jsp:include page="/plantillas/nav.jsp"></jsp:include>
+</nav>
+<section class="estilo_general">
   
 	<table id="tabla_plugin" class="display" cellspacing="0" width="100%">
         <thead>
@@ -546,6 +524,13 @@
 	} );
   </script>
   
-  
-  </body>
-</html>
+
+</section>
+
+<footer class="estilo_footer_head">
+	<jsp:include page="/plantillas/foot.jsp"></jsp:include>
+     <script src="js\main.js"></script>
+</footer>
+
+
+

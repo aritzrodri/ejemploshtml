@@ -6,10 +6,8 @@
 	 
 <section class="estilo_general">
 
-
 <!-- https://youtu.be/t4YhcJgpqus -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SRhf4y0Nrx4" frameborder="0" allowfullscreen></iframe> 
-
 
 </section>
     <br>

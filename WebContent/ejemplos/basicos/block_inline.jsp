@@ -1,17 +1,11 @@
-
-</header>
-
-	<jsp:include page="/plantillas/head.jsp"></jsp:include>
-
-<div id="home">	
-
+  	<jsp:include page="/plantillas/head.jsp"></jsp:include>
 <nav class="estilo_menu">
 	<jsp:include page="/plantillas/nav.jsp"></jsp:include>
 </nav>
 
-	 
+<div id="home">	
+
 <section class="estilo_general">
-	<a href="index.html">VOLVER</a>	
   
 	  <div id="encabezado"  >
 

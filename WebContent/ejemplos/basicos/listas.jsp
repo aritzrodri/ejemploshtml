@@ -1,22 +1,13 @@
-
-</header>
-
-	<jsp:include page="/plantillas/head.jsp"></jsp:include>
-
-<div id="home">	
-
+  	<jsp:include page="/plantillas/head.jsp"></jsp:include>
 <nav class="estilo_menu">
 	<jsp:include page="/plantillas/nav.jsp"></jsp:include>
 </nav>
 
-	 
+<div id="home">	
+
 <section class="estilo_general">
 
-
-	<a href="index.html">VOLVER</a>	
-  
 	  <div id="encabezado"  >
-
 
 			<h1><a href="#p1" title="Ir a sección X1">Hola clase!!1</a></h1>
 			<h2><a href="#p2" title="Ir a sección X2">Hola clase!!2</a></h2>
