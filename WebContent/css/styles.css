@@ -463,6 +463,18 @@ y tambien hacer para que se aplique la altura automaticamente dependiendo del te
 /* ----------------------------------FIN ESTILOS CARTELERA---------------------------- */
 
 
+/* -------------------------------ESTILOS CALCULADORA------------------------------------*/
+
+#calculadora
+{
+	switch:50%;
+	float:left;
+    margin-left: 50px;
+	
+}
+
+/* ---------------------------FIN ESTILOS CALCULADORA------------------------------------*/
+
 article{
 	border: 2px solid green;
 	padding: 20px;

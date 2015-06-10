@@ -5,26 +5,26 @@
 	<jsp:include page="/plantillas/nav.jsp"></jsp:include>
 </nav>
 
-
+<div id="home">
 	 
-<section class="estilo_general">
-
-<!-- Varias imagenes metidas en un figure -->
-	<figure>
-	  <img src="img/husky.jpg" alt="husky">
-	  <img src="img/husky.jpg" alt="husky">
-	  <img src="img/husky.jpg" alt="husky">
-	  <figcaption>Un Husky</figcaption>
-	</figure>
+	<section class="estilo_general">
 	
-	<!-- Una imagen metida en un figure -->
-	<figure>
-	  <img src="img/husky.jpg" alt="husky">
-	  <figcaption>Un Husky</figcaption>
-	</figure>
-	
-</section>
-   
+	<!-- Varias imagenes metidas en un figure -->
+		<figure>
+		  <img src="img/husky.jpg" alt="husky">
+		  <img src="img/husky.jpg" alt="husky">
+		  <img src="img/husky.jpg" alt="husky">
+		  <figcaption>Un Husky</figcaption>
+		</figure>
+		
+		<!-- Una imagen metida en un figure -->
+		<figure>
+		  <img src="img/husky.jpg" alt="husky">
+		  <figcaption>Un Husky</figcaption>
+		</figure>
+		
+	</section>
+</div>
    <br>
      
 	<script type="text/javascript" src="js/main.js"></script>
