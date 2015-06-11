@@ -11,15 +11,74 @@
   <script src="//code.jquery.com/qunit/qunit-1.18.0.js"></script>
   <script src="../../js/utilidades.js"></script>
   <script>
+   	
+  QUnit.test( "funciones predefinidas", function( assert) 
+		  {
+		 		assert.ok( escape('2 es par')== '2%20es%20par', "hola mundo escapado");	 
+		 		assert.ok(( 10 + '1')== "101", "sin parseInt 10 + \"1\" =101");	 
+  				assert.ok(( 10 + parseInt('1'))== 11, "con parseInt 10 + 1 =11");	 
+  				assert.ok( isNaN("123abg")==true, "123abg no es un numero");	 
+  				assert.ok( isNaN("123")==false, "123 es un numero");	 
+  				
+  				
+  				
+  				//------ CREAR E INSERTAR VALORES EN ARRAY------
+  				var nombre=new Array("john","wayne",45);
+  				
+  				assert.ok( nombre[0]=="john", "john esta");	 
+  				assert.ok( nombre[1]=="wayne", "w esta");
+  				assert.ok( nombre[2]== 45, "45 esta");
+  				
+  				//-----LENGTH-------
+  				assert.ok( nombre.length == 3, "longitud es 3");
+  			  	
+  				
+  				//-----JOIN-----
+  				//quita los espacion de un array y te concatena los elementos con un simbolo
+  				assert.ok( nombre.join("#") == "john#wayne#45", "join ok!! ");
+  				
+  				
+  				//------REVERSE-----
+  				//invierte en orden de un array
+  				var inverso=new Array();
+  				inverso=nombre.reverse();
+  				 				
+  				assert.ok( inverso[0] == 45, "45 rev ok!! ");
+  				assert.ok( inverso[1] == "wayne", "w rev ok!! ");
+  				assert.ok( inverso[2] == "john", "jon rev ok!! ");
+  				
+  				
+  				//--------SORT NUMEROS--------
+  				//ordena de menor a mayor un array
+  				var arrayPrueva= new Array(-5,5,3,1,0,4,7);
+  				var ordenado= new Array();
+  				ordenado=arrayPrueva.sort();
+  				
+  				assert.ok( ordenado[0] == -5, "-5 ok!! ");
+  				assert.ok( ordenado[1] == 0, "0 ok!! ");
+  				assert.ok( ordenado[2] == 1, "1 ok!! ");
+  				assert.ok( ordenado[3] == 3, "3 ok!! ");
+  				assert.ok( ordenado[4] == 4, "4 ok!! ");
+  				assert.ok( ordenado[5] == 5, "5 ok!! ");
+  				assert.ok( ordenado[6] == 7, "7 ok!! ");
+  				
+  				
+  			//--------SORT LETRAS--------
+  				//ordena alfabeticamente un array
+  				var arrayPrueva= new Array("a","b","A","C");
+  				var ordenadoletras= new Array();
+  				ordenadoletras=arrayPrueva.sort();
+  				
+  				assert.ok( ordenadoletras[0] == "a", "a ok!! ");
+  				assert.ok( ordenadoletras[1] == "A", "A ok!! ");
+  				assert.ok( ordenadoletras[2] == "b", "b ok!! ");
+  				assert.ok( ordenadoletras[3] == "C", "C ok!! ");
+  				
+  			
+		  
+		  });
   
- 	//nuestro codigo de test
- 	/* QUnit.test( "precio_entrada(dia, edad)", function( assert ) {
-	  assert.ok( precio_entrada('jueves', 34) == 2, "jueves con 34 años a 2€" );
-	  assert.ok( precio_entrada('jueves', 18) == 2, "jueves con 18 años a 2€" );
-	  assert.ok( precio_entrada('jueves', 26) == 2, "jueves con 26 años a 2€" );
-	});*/
- 	
- 	
+  
  	//nuestro codigo de test
  	 QUnit.test( "es_par(numero)", function( assert)  {
 	  assert.ok( es_par(2), "2 es par");
@@ -93,18 +152,8 @@
 			assert.ok( precio_entrada('juves', 20) == 8, "el dia o la edad no son correctos" );  
 			assert.ok( precio_entrada(null, 50) == 8, "el dia o la edad no son correctos" );  
 			  
-			
-			
-			
- 		/*assert.ok( precio_entrada('jueves', 34) == 2, "jueves con 34 años a 2€" );
-		  assert.ok( precio_entrada('jueves', 18) == 2, "jueves con 18 años a 2€" );
-		  assert.ok( precio_entrada('jueves', 26) == 2, "jueves con 26 años a 2€" );
-		  
-		  */
-	});
  	
-	
-	
+ 	});
  	
   </script>
 </body>
