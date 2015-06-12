@@ -5,6 +5,7 @@
 			<li><a href="ejemplos/basicos/parrafos.jsp">Parrafos y enlaces internos</a></li>
 			<li><a href="ejemplos/basicos/block_inline.jsp">Block e inline</a></li>
 			<li><a href="ejemplos/basicos/listas.jsp">Listas</a></li>
+			<li><a href="ejemplos/basicos/objetos.jsp">Objetos basicos</a></li>
 		</ul>
 	</li>
 	
